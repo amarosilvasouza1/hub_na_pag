@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--stylesheet -->
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/index.css">
+    <!--stylesheet -->
+    <!-- script -->
+    <script defer type="module" src="../script/data.mjs"></script>
+    <script defer type="module" src="../script/register.mjs"></script>
+    <!-- script -->
+    <title>regiter</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo_header">
+                Register.COM
+            </h1>
+            <a href="../../login.html">
+                <button class="Register_account">
+                    Login
+                </button>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="register_section">
+            <form class="register_conteiner">
+                <h2>register</h2>
+                <div>
+                    <label for="form">Name</label>
+                    <input required class="name_input" type="text" placeholder=" name...">
+                </div>
+                <div>
+                    <label for="form">Email</label>
+                    <input required class="email_input" type="email" placeholder=" Enter your email...">
+                </div>
+                <div>
+                    <label for="form">Password</label>
+                    <input required class="password_input" type="password" placeholder=" Enter your password...">
+                </div>
+                <div>
+                    <label for="form">Repeat Password</label>
+                    <input required class="password_repeat_input" type="password" placeholder=" repeat password...">
+                </div>
+                <button class="enter_register">Register</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

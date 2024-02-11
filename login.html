@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--stylesheet -->
+    <link rel="stylesheet" href="./src/style/reset.css">
+    <link rel="stylesheet" href="./src/style/index.css">
+    <!--stylesheet -->
+    <!-- script -->
+    <script defer type="module" src="./src/script/data.mjs"></script>
+    <script defer type="module" src="./src/script/login.mjs"></script>
+    <!-- script -->
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo_header">
+                Login.COM
+            </h1>
+            <a href="./src/pages/register.html">
+                <button class="Create_account">
+                    Create account
+                </button>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="login_section">
+            <form class="login_conteiner">
+                <h2>login</h2>
+                <div>
+                    <label for="form">Email</label>
+                    <input required class="email_input" type="email" placeholder=" Enter your email...">
+                </div>
+                <div>
+                    <label for="form">Password</label>
+                    <input required class="password_input" type="password" placeholder=" Enter your password...">
+                </div>
+                <button type="button" class="enter_login">Enter</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
